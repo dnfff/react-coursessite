@@ -227,9 +227,7 @@ a {
   width: calc(var(--index) * 6);
   position: absolute;
   background: rgba(255, 255, 255, 0.075);
-  border-radius: 16px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.137);
-  -webkit-backdrop-filter: blur(0px);
   border-radius: 47% 53% 53% 47% / 42% 35% 65% 58%;
 
   animation: oval 150s infinite linear;
@@ -251,10 +249,7 @@ a {
   width: calc(var(--index) * 4);
   position: absolute;
   background: rgba(255, 255, 255, 0.075);
-  border-radius: 16px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.137);
-  -webkit-backdrop-filter: blur(0px);
-  border-radius: 47% 53% 53% 47% / 42% 35% 65% 58%;
   animation: oval2 100s infinite linear;
   z-index: 101;
 }
