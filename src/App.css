@@ -438,7 +438,6 @@ a {
     color: #ffffff;
     font-weight: 550;
     letter-spacing: 0.5px;
-    background: rgb(243,25,255);
     background: linear-gradient(16deg, rgb(228, 25, 255) 0%, #af0eff 100%);
     cursor: pointer;
     display: flex;
@@ -680,15 +679,9 @@ a {
   cursor: pointer;
 }
 
-.alert-enter-done {
-  color: #000000;
-}
-.alert2-enter-done {
-  color: #000000;
-}
-.alert3-enter-done {
-  color: #000000;
-}
+.alert-enter-done,
+.alert2-enter-done,
+.alert3-enter-done,
 .alert4-enter-done {
   color: #000000;
 }
