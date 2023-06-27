@@ -95,11 +95,6 @@ h2 {
     color: #797979;
 }
 
-/* .form__log {
-    height: calc(var(--index) * 0.5);
-    width: calc(var(--index) * 0.5);
-} */
-
 .input-group input:focus~label,
 .input-group input:valid~label {
     top: -10px;
@@ -185,7 +180,6 @@ h2 {
     width: calc(var(--index));
     animation: ovall 25s infinite linear;
     position: absolute;
-    /* left: -500px; */
     z-index: 97;
     background-color: #03001300;
 }
@@ -204,7 +198,6 @@ h2 {
     width: calc(var(--index));
     animation: ovall2 25s infinite linear;
     position: absolute;
-    /* left: -500px; */
     z-index: 97;
     background-color: #03001300;
 }
